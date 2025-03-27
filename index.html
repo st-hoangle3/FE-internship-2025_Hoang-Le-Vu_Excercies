@@ -9,15 +9,17 @@
     <header class="header">
       <div class="container">
         <div class="header-navigation">
-          <div class="header-logo">
+          <div class="logo">
             <h2>
-              <img
-                src="assets/logo.png"
-                alt="One More Friend Thounsands More Fun"
-              />
+              <a class="logo-action">
+                <img
+                  src="assets/logo.png"
+                  alt="One More Friend Thounsands More Fun"
+                />
+              </a>
             </h2>
           </div>
-          <nav class="header-navbar">
+          <nav class="navbar">
             <ul class="list-nav">
               <li class="list-item">
                 <a href="#" class="nav-link">Home</a>
@@ -45,11 +47,12 @@
           <div class="header-btn">
             <button class="btn btn-primary">Join the community</button>
           </div>
-          <div class="action-choice">
+          <div class="header-currency">
             <div class="header-icon"><i>flagVN</i></div>
-            <span class="header-text">VND</span>
             <select class="header-dropdown">
-              <option class="dropdown-selector">USD</option>
+              <option class="dropdown-selector" value="VND" selected>
+                VND
+              </option>
               <option class="dropdown-selector">JPY</option>
               <option class="dropdown-selector">CNY</option>
             </select>
